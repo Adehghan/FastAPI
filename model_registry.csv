@@ -1,0 +1,3 @@
+Timestamp,Accuracy,Model Path,Status
+2025-03-09 12:57:06.782466,0.9899,Machine_Learning_Models\cnn_model_0.9899_20250309_125706.h5,production
+2025-03-09 13:02:56.899507,0.9883,Machine_Learning_Models\cnn_model_0.9883_20250309_130256.h5,production

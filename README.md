@@ -12,33 +12,6 @@ This project provides a FastAPI-based microservice for training, registering, an
 
 ---
 
-## 📂 Project Structure
-
-📦 FastAPI-ML-Service
-┣ 📂 app
-┃  ┣ 📂 api               # FastAPI route handlers
-┃  ┗ 📂 core              # Core business logic
-┣ 📂 DataAccess
-┃  ┣ 📂 Datasets          # Input datasets
-┃  ┗ 📂 Models            # Trained ML models
-┣ 📂 Machine_Learning_Models
-┣ 📂 Notebooks
-┃  ┣ 📄 amazon_fine_food_reviews.ipynb
-┃  ┣ 📄 amazon_fine_food_reviews_transformer.ipynb
-┃  ┣ 📄 azure_data.ipynb
-┃  ┣ 📄 flowers_recognition.ipynb
-┃  ┣ 📄 linear_regression.ipynb
-┃  ┣ 📄 named_entity_recognition.ipynb
-┃  ┗ 📄 twomlage.ipynb
-┣ 📂 Logs                 # Process and error logs
-┣ 📂 viewModel            # View and serialization layers
-┣ 📄 main.py              # FastAPI app entry point
-┣ 📄 model_registry.csv   # Registry of trained models
-┣ 📄 requirements.txt     # Project dependencies
-┗ 📄 README.md
-
----
-
 ## ML Capabilities
 - Includes training and inference on various NLP and computer vision tasks, such as:
 - Sentiment analysis on Amazon food reviews

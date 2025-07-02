@@ -12,7 +12,8 @@ This project provides a FastAPI-based microservice for training, registering, an
 
 ---
 
-## FastAPI-ML-Service
+## Project Structure
+📦 FastAPI-ML-Service
 ┣ 📂 app
 ┃  ┣ 📂 api               # FastAPI route handlers
 ┃  ┗ 📂 core              # Core business logic

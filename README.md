@@ -55,8 +55,6 @@ Access the interactive API docs at http://127.0.0.1:8000/docs
 
 ## Future Work
 - Add JWT-based authentication for secure API access.
-
 - Dockerize the service for production deployment.
-
 - Integrate CI/CD for automated testing and deployment.
 

@@ -1,5 +1,4 @@
-
-📌 FastAPI ML Model Management and Serving
+# FastAPI ML Model Management and Serving
 This project provides a FastAPI-based microservice for training, registering, and serving machine learning models. It allows saving the best-performing models, logging the training process, and exposing RESTful endpoints for predictions.
 
 🚀 Features

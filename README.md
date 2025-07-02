@@ -5,63 +5,51 @@ This project provides a FastAPI-based microservice for training, registering, an
 
 ## Features
 - Model Registry: Automatically saves and registers trained ML models with their performance metrics in model_registry.csv.
-
 - Model Selection: Provides the ability to fetch and load the best model based on historical evaluation results.
-
 - Logging: Records training and prediction activities in structured log files under the Logs/ directory.
-
 - Modular Structure: Cleanly separated components in app/api/, app/core/, and DataAccess/ directories.
-
 - Flexible Data Access: Organized datasets and models under DataAccess/ for easy management.
 
 ---
 
-## Project Structure
-graphql
-Copy
-Edit
-app/
-  api/                    # FastAPI route handlers
-  core/                   # Core business logic
-DataAccess/
-  Datasets/               # Input datasets
-  Models/                 # Trained ML models
-Machine_Learning_Models/  # Scripts for training models
-Notebooks/                # Jupyter notebooks for experiments
-Logs/                     # Process and error logs
-viewModel/                # View and serialization layers
-main.py                   # FastAPI app entry point
-model_registry.csv        # Registry of trained models
-requirements.txt          # Project dependencies
-📡 API Endpoints
-POST /train: Train a new ML model with a specified dataset.
-
-GET /model/best: Retrieve the best-performing trained model.
-
-POST /predict: Get predictions using the best model.
+## FastAPI-ML-Service
+┣ 📂 app
+┃  ┣ 📂 api               # FastAPI route handlers
+┃  ┗ 📂 core              # Core business logic
+┣ 📂 DataAccess
+┃  ┣ 📂 Datasets          # Input datasets
+┃  ┗ 📂 Models            # Trained ML models
+┣ 📂 Machine_Learning_Models
+┣ 📂 Notebooks
+┃  ┣ 📄 amazon_fine_food_reviews.ipynb
+┃  ┣ 📄 amazon_fine_food_reviews_transformer.ipynb
+┃  ┣ 📄 azure_data.ipynb
+┃  ┣ 📄 flowers_recognition.ipynb
+┃  ┣ 📄 linear_regression.ipynb
+┃  ┣ 📄 named_entity_recognition.ipynb
+┃  ┗ 📄 twomlage.ipynb
+┣ 📂 Logs                 # Process and error logs
+┣ 📂 viewModel            # View and serialization layers
+┣ 📄 main.py              # FastAPI app entry point
+┣ 📄 model_registry.csv   # Registry of trained models
+┣ 📄 requirements.txt     # Project dependencies
+┗ 📄 README.md
 
 ---
 
 ## ML Capabilities
 - Includes training and inference on various NLP and computer vision tasks, such as:
-
 - Sentiment analysis on Amazon food reviews
-
 - Flower species recognition
-
 - Named entity recognition
-
 - Regression models
-
+- 
 ---
 
 ## Technologies Used
 - FastAPI for API design
-
 - Python & scikit-learn for ML pipelines
-
 - Pandas & NumPy for data manipulation
-
 - Custom logging module for process traceability
 
 ---

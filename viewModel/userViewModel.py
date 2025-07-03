@@ -11,8 +11,8 @@ class userNodel(BaseModel):
     lname: str
     gender: GenderEnum
     age: int = Field(gt = 0) # Greater Than
-    national_code: str = Field(None, min_length = 10)
+    national_code: Optional[str] = Field(None, min_length = 10)
     username: str
-    password: str = Field(any, min_length=10)
+    password: str = Field(..., min_length=10)
     remark: Optional[str]
 

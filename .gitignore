@@ -9,10 +9,11 @@ __pycache__/
 .vscode/
 
 # Environments
-env/
-venv/
-ENV/
-.venv/
+*env/
+
+# Folders
+Machine_Learning_Models/
+Logs/
 
 # OS
 .DS_Store

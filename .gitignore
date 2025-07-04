@@ -9,9 +9,11 @@ __pycache__/
 .vscode/
 
 # Environments
-*env/
+*env*/
+env_bert/
 
 # Folders
+DataAccess/
 Machine_Learning_Models/
 Logs/
 
